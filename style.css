@@ -1,0 +1,35 @@
+body {
+    background: #393E41;
+}
+
+section {
+    background: #393E41;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: #6C91BF;
+}
+
+p {
+    color: #cccccc;
+}
+
+.hotpink-header {
+    color: #F75C03;
+}
+
+#hotpink-id {
+    color: #F75C03;
+}
+
+a {
+    color: #D4DF9E;
+}
+
+nav a {
+    color: #00CC66;
+}
