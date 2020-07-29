@@ -1,0 +1,57 @@
+body {
+    background: #2D2241;
+    color: #fff;
+}
+
+.box {
+    background: rgba(255, 255, 255, 0.4);
+    display: inline;
+    /*blok do konca frazy*/
+}
+
+a {
+    display: block;
+    /*blok na całą linię i jest domyślny*/
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.box-wh {
+    background: rgba(255, 255, 255, 0.4);
+    width: 100px;
+    height: 100px;
+}
+
+.inl-block {
+    background: rgba(255, 255, 255, 0.4);
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    /*inline-block mozna customizować, zwykłe inline nie*/
+}
+
+.max-wh {
+    background: rgba(255, 255, 255, 0.4);
+    max-width: 600px;
+    /*szerokość ruchoma, mzienia sie wraz z rozmiarem strony*/
+    /*zwykłe width jest sztywne i sie nie dopasowuje*/
+}
+
+
+/*odciecie*/
+
+.over {
+    background: rgba(255, 255, 255, 0.4);
+    min-width: 600px;
+    height: 400px;
+    overflow: hidden;
+    /*overflow: visible;
+    overflow: auto; - dodaje scroll w elemencie*/
+}
+
+.scroll {
+    background: rgba(255, 255, 255, 0.4);
+    min-width: 600px;
+    height: 400px;
+    overflow: auto;
+    /*dodaje scroll w elemencie*/
+}
