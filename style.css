@@ -33,3 +33,12 @@ a {
 nav a {
     color: #00CC66;
 }
+
+.nav {
+    position: fixed;
+    background: #494f52;
+    z-index: 100000;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
