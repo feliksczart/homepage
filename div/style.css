@@ -55,3 +55,86 @@ a {
     overflow: auto;
     /*dodaje scroll w elemencie*/
 }
+
+.pad {
+    background: rgba(255, 255, 255, 0.4);
+    overflow: auto;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    /*margines boxu, padding jest dodawany do wielkosci boxa*/
+}
+
+.cus-pad {
+    background: rgba(255, 255, 255, 0.4);
+    overflow: auto;
+    width: 200px;
+    height: 200px;
+    padding-top: 3px;
+    padding-right: 4px;
+    padding-bottom: 5px;
+    padding-left: 6px;
+    /* == padding: 3px 4px 5px 6px;*/
+    /*padding: 20px 30px - 20px gora, dol i 30px prawo, lewo*/
+}
+
+.border {
+    background: rgba(255, 255, 255, 0.4);
+    overflow: auto;
+    width: 200px;
+    height: 200px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #fe201a;
+    /* == border: 3px solid #fe201a*/
+}
+
+.cus-border {
+    background: rgba(255, 255, 255, 0.4);
+    overflow: auto;
+    width: 200px;
+    height: 200px;
+    border-top: 3px solid hotpink;
+    border-right: 5px dashed green;
+    border-bottom: 10px dotted blue;
+    border-left: 20px solid darkcyan;
+}
+
+.radius-border {
+    background: rgba(255, 255, 255, 0.4);
+    overflow: auto;
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    border: 10px solid #fff;
+    border-radius: 50%;
+    margin: 50px;
+}
+
+.auto-fit {
+    background: rgba(255, 255, 255, 0.4);
+    overflow: auto;
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    border: 10px solid #fff;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+
+.centered {
+    margin: 0 auto;
+    background: hotpink;
+    width: 60px;
+}
+
+.all-in-box {
+    background: rgba(255, 255, 255, 0.4);
+    overflow: auto;
+    width: 200px;
+    height: 300px;
+    padding: 50px;
+    border: 10px solid #fff;
+    margin: 10px;
+    box-sizing: border-box;
+}
