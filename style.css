@@ -2,6 +2,12 @@ body {
     background: #393E41;
 }
 
+main {
+    width: 1000px;
+    overflow: auto;
+    margin: 10px auto;
+}
+
 section {
     background: #393E41;
 }
@@ -16,6 +22,10 @@ h2 {
 
 p {
     color: whitesmoke;
+}
+
+.main-heading {
+    color: thistle;
 }
 
 .hotpink-header {
@@ -34,11 +44,39 @@ nav a {
     color: #00CC66;
 }
 
-.nav {
-    position: fixed;
-    background: #494f52;
-    z-index: 100000;
-    top: 0;
-    left: 0;
-    width: 100%;
+.navigation {
+    background: #392759;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.navigation__link {
+    color: #fff;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navigation__link-homepage {
+    background: yellow;
+    color: #000;
+}
+
+.week-summary {
+    padding: 16px;
+    border: #ccc 1px solid;
+    margin-bottom: 16px;
+}
+
+.week-summary__description {
+    color: #ECBA82;
+}
+
+.week-summary__title {
+    color: #6874E8;
+}
+
+footer {
+    background: black;
+    color: white;
+    font-size: 14px;
 }

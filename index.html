@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- 4.10-->
+<!-- 4.15-->
 <html lang="pl">
 
 <head>
@@ -15,39 +15,41 @@
 
     <!-- Powtarzalny nagłówek dla kazdej podstrony-->
     <header>
-        <nav class="nav">
-            <a href="index.html" target="_blank">Strona główna</a>
-            <a href="nauka-html.html" target="_blank">Nauka html</a>
-            <a href="div/index.html" target="_blank">Divy</a>
-            <a href="position/position.html" target="_blank">Pozycjonowanie</a>
+        <nav class="navigation">
+            <a class="navigation__link navigation__link-homepage" href="index.html" target="_blank">Strona główna</a>
+            <a class="navigation__link" href="nauka-html.html" target="_blank">Nauka html</a>
+            <a class="navigation__link" href="div/index.html" target="_blank">Divy</a>
+            <a class="navigation__link" href="position/position.html" target="_blank">Pozycjonowanie</a>
         </nav>
     </header>
 
     <main>
         <header id="top">
-            <h1 class="hotpink-header">Siema jestem Felek i nie mam szelek! - Strona robiona w ramach WTF</h1>
-            <h1 id="hotpink-id">Siema jestem Felek i nie mam szelek!</h1>
+            <h1 class="main-heading main-heading--js">Main heading!</h1>
+            <!-- main-heading--js - klasa potrzebna do połączenia z js-->
+            <h2 class="hotpink-header">Siema jestem Felek i nie mam szelek! - Strona robiona w ramach WTF!!!!!!!!!!!!</h2>
+            <h2 id="hotpink-id">Siema jestem Felek i nie mam szelek!</h2>
         </header>
         <section>
             <h2>Link do szkolenia:</h2>
-            <a href="https://devstyle.mykajabi.com/library">WTF</a> <br/>
+            <a href="https://devstyle.mykajabi.com/library" target="_blank">WTF</a> <br />
             <a href="#notatki">Przejdz do notatek</a>
         </section>
         <section>
             <h2>Kim jestem?</h2>
             <img src="ja.jpg" alt="To ja :)" />
             <p> <b>Donec</b> <strong>sit amet</strong> <i>asaafsdgs</i> massa <em>vdfksnjf</em> sit amet orci elementum gravida id quis magna.
-                <br/> Integer ornare quam vitae ante iaculis, nec porttitor lorem cursus. In ac bibendum ante.</p>
+                <br /> Integer ornare quam vitae ante iaculis, nec porttitor lorem cursus. In ac bibendum ante.</p>
         </section>
         <section id="notatki">
             <h2>Notes:</h2>
-            <article>
-                <h3>Proin congue pulvinar tellus, vel congue ex maximus vitae.</h3>
-                <p>Sed fringilla neque leo. Etiam rhoncus, ante sed ullamcorper mollis, sem enim pharetra leo, aliquam finibus magna erat imperdiet lacus.</p>
+            <article class="week-summary">
+                <h3 class="week-summary__title">Proin congue pulvinar tellus, vel congue ex maximus vitae.</h3>
+                <p class="week-summary__description">Sed fringilla neque leo. Etiam rhoncus, ante sed ullamcorper mollis, sem enim pharetra leo, aliquam finibus magna erat imperdiet lacus.</p>
             </article>
-            <article>
-                <h3>Pytanie?</h3>
-                <p>Mauris in tortor magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris scelerisque nunc eget metus posuere egestas. Quisque dapibus commodo ipsum.
+            <article class="week-summary">
+                <h3 class="week-summary__title">Pytanie?</h3>
+                <p class="week-summary__description">Mauris in tortor magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris scelerisque nunc eget metus posuere egestas. Quisque dapibus commodo ipsum.
                 </p>
             </article>
         </section>
@@ -68,4 +70,7 @@
 
     <a href="link"> - łącze zewnętrzne
     <element id="my_id"> - łącze wewnętrzne
+    
+    DOM - ostateczny kod po przeanalizowaniu wszystkich plików, czyli ten z inspect element
+    
 -->
