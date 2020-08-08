@@ -1,15 +1,17 @@
 body {
-    background: #393E41;
+    /*background: #393E41;*/
+    background: #212121;
 }
 
 main {
     width: 1000px;
     overflow: auto;
     margin: 10px auto;
+    padding: 80px 20px 0;
 }
 
 section {
-    background: #393E41;
+    background: #212121;
 }
 
 h1 {
@@ -36,29 +38,44 @@ p {
     color: #F75C03;
 }
 
-a {
-    color: #D4DF9E;
-}
-
 nav a {
-    color: #00CC66;
+    text-decoration: none;
 }
 
 .navigation {
     background: #392759;
     padding: 16px;
     border-radius: 8px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 95%;
+    height: 35px;
+    z-index: 1000;
+}
+
+.navigation__logo {
+    width: 65px;
+    height: 53.69px;
+    margin-right: 130px;
 }
 
 .navigation__link {
     color: #fff;
     display: inline-block;
     margin-right: 20px;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.navigation__link:hover {
+    color: #ddd;
+    background: #170537;
+    border-radius: 5px;
 }
 
 .navigation__link-homepage {
-    background: yellow;
-    color: #000;
+    font-size: 30px;
 }
 
 .week-summary {
@@ -77,6 +94,51 @@ nav a {
 
 footer {
     background: black;
+    padding: 16px 0;
     color: white;
-    font-size: 14px;
+    box-sizing: inherit;
+}
+
+.photo {
+    border-radius: 40px;
+    transition: transform .2s ease-in-out;
+    display: flex;
+    align-items: center;
+    border: 1px solid #fff;
+    filter: drop-shadow(0 4px 4px rgba(255, 255, 255, 0.25));
+    box-sizing: inherit;
+    cursor: pointer;
+}
+
+.photo:hover {
+    filter: invert(1);
+}
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: #212121;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: #666;
+    border-radius: 8px;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #444;
 }
